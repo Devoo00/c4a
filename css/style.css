@@ -1,0 +1,562 @@
+*{
+ padding: 0px;
+ margin: 0px;
+    
+}
+
+body {
+ height: 3000px;   
+} 
+
+.container {
+ width: 1200px;
+ margin: auto;
+ position: relative;
+ 
+}
+/*start style header */
+.header {
+ background-image:url(../images/root-web-designs-slider-background.jpg);
+ background-size:cover;
+ height:700px;
+ position: relative;
+}
+    
+    .header .abs{
+  position:absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background:rgba(130,142,152,0.3);   
+}
+    
+.header h3 {
+float: left ;
+margin: 20px 1px;
+color: white;
+    
+}
+
+.header h3 span{
+color: orangered;
+  
+}
+
+
+.header ul{
+ float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    color :snow;
+    font-size: 22px;
+    font-weight: 500;
+   cursor: pointer;
+}
+
+.header ul li {
+ display: inline-block;
+ margin: 0 10px;
+}
+
+.header ul li:hover{  
+    color: orangered;
+    
+}
+ 
+.header .info{
+ padding-left: 280px;
+ padding-top: 250px;
+ 
+}
+
+.header .info h1{
+ text-align: center;
+  padding-right:300px;
+ font-size: 50px;
+    color: white;
+  
+}
+ 
+.header .info h1 span{
+ color:orangered;
+
+}
+
+.header .info  p{
+    color: white;
+    width: 600px;
+    font-weight: bold;
+    text-align: center;
+}
+ 
+.header .info .hire{
+ margin-left: 190px; 
+    padding-top: 25px;
+    
+}
+    
+.header .info .hire button{
+   font-size: 20px;
+    background:none;
+    color: white;
+    width: 120px;
+    height: 30px;
+    margin: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+   border-radius: 10px;
+}
+
+.header .info .hire button:hover{
+background-color: orangered;
+}
+
+.header .info .hire i{
+   display: block;
+    margin-left: 122px;
+font-size: 25px;
+    border-radius: 50%;
+color: white;
+}
+
+.header .info .hire i:hover{
+   color: orangered;
+    cursor: pointer;
+    
+    
+}
+/*end style header */
+
+/*star style title*/
+.title {
+ padding-top: 40px; 
+    padding-bottom: 240px;
+    
+}
+.title .option{
+ float: left;
+ width: 25%;
+
+}
+
+.title .option i{
+ font-size: 50px;
+    color: orangered;
+    margin-left: 85px; 
+    margin-bottom: 20px;
+    border: 1px solid #AAA ; 
+    border-radius: 50%;
+    padding: 7px 10px;
+    cursor: pointer;
+     
+    
+}
+ .title .option i:hover{
+  background-color: #AAA;  
+     
+}
+
+
+
+ .title .option h4{
+ margin-left: 70px;
+     font-size: 20px;
+     color: #505576;
+     margin-bottom: 20px;
+     
+}
+
+.title .option p{
+ text-align: center;
+    color: #AAA;
+    margin-right: 40px;
+  
+}
+
+/*end style titile*/
+
+/*start style subscripe*/
+.subscripe {
+  background-image: url(../images/slider-background.jpg);
+  background-size: cover;
+  height: 400px;
+    position: relative;
+}
+
+.subscripe  .overlay{
+ position:absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+background:rgba(130,142,152,0.3);   
+}
+
+.subscripe .area {
+ padding-left: 400px;
+padding-top: 200px;
+
+}
+    
+.subscripe .area input{
+ width: 350px;
+    height: 30px;
+    font-size: 18px;
+    border:  1px solid #EEE;
+    border-radius: 5px;
+}
+
+.subscripe .area button{
+ width: 90px;
+    height: 30px;
+    border: 1px solid #EEE;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    
+}
+
+.subscripe .area button:hover{
+  background-color: orangered;  
+    
+}
+
+
+/*end style subscripe */
+
+/*start style portfolio */
+ .port{
+     padding-top: 70px;
+     position: relative;
+     
+}
+.port   h2{
+ text-align: center;
+font-size: 48px;
+}
+.port h2 span{
+color: orangered;
+font-style: italic;
+    
+}
+
+.port p{
+    text-align: center;
+    font-size: 15px;
+    color: #AAA;
+    margin-bottom: 80px;
+    
+}
+
+.port .pic{
+ float: left;
+ padding-left: 20px;
+    padding-top: 20px;
+    position: relative;
+    
+
+}
+
+.port .pic img{
+ border-radius: 10px;;
+cursor: pointer;
+}
+
+.port button {
+width: 130px;
+height: 35px;
+margin-left: 520px;
+margin-top: 60px;
+font-size: 20px;
+cursor: pointer;
+background-color: orangered; 
+color: white;
+border-radius: 10px;
+font-style: oblique;
+}
+
+
+.port .cover{
+margin-top: 20px;
+margin-left: 20px;
+height: 270px;
+ position: absolute; 
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+background: rgba(247,96,14,0.5);
+border-radius: 10px;
+display: none;
+    
+}
+
+.port .pic:hover .cover {
+ display: block;   
+}
+
+.port .pic .item {
+     padding-top: 85px;
+font-style: italic;
+font-weight: bold;
+}
+
+.port .pic .item h2{
+ font-size: 20px; 
+color: white;
+}
+
+.port .pic .item p{
+ color: lavenderblush;
+font-style: oblique;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.port .pic .item button{
+margin-left: 125px;
+margin-top: 20px;
+width:120px;
+height: 30px;
+background-color: white;
+color: orangered;
+border: 1px solid #EEE;
+}
+
+
+/*end style portfolio */
+
+/* start style ground */
+
+.ground {
+    background-image: url(../images/403088052-laptop-wallpapers.jpg);
+    background-size: cover;
+    margin-top: 50px;
+    height: 350px;
+    position: relative;
+      
+}
+
+
+
+
+.ground  .wallpaper {
+ top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+position: absolute;
+background: rgba(130,142,152,0.5);
+    
+}
+
+.ground  .container img {
+ margin-left: 520px;
+border-radius: 50%;
+border: 1px solid #AAA;
+    margin-top: 100px; 
+    
+}
+
+ 
+
+.ground  .container  .two{
+ text-align: center;
+   
+}
+
+.ground  .container  .two h3{
+ margin-right: 30px;
+margin-top: 20px;
+font-style: italic;
+color: #505576;
+   
+}
+
+.ground  .container  .two p{
+font-weight: bold;
+font-size: 18px;
+font-style: oblique;
+margin-top: 20px;
+ color: white;
+}
+
+.ground  .container   i{
+ font-size: 50px;
+cursor: pointer;
+color: white;
+}
+
+/* end style ground */
+
+/* start style contacts */
+.contacts {
+     text-align: center;
+    margin-top: 70px;
+}
+
+.contacts span{
+  color: orangered;
+  font-style: italic;
+}
+
+.contacts p{
+ margin-top: 20px;
+font-weight: bold;
+font-style: oblique;
+color: #AAA;
+    
+}
+
+.contacts img{
+ margin-top: 70px; 
+margin-left: 30px;
+border: 1px solid:#AAA;
+border-radius: 20px;
+
+    
+}
+
+.contacts .container .damg {
+display: inline-block;
+
+    
+}
+
+.contacts .container .damg h4 {
+margin-top: 20px;
+font-style: italic;
+color: #505576;
+}
+
+.contacts .container .damg i {
+margin-top: 20px;
+padding-top:  5px;
+font-style: oblique;
+ color: #FFF;
+background-color: #505576;
+border: 1px solid #AAA;
+border-radius:50%;
+height: 20px; 
+width: 30px;
+  
+}
+/*end style contacts */
+
+/*start style options*/
+.options {
+ background-image: url(../images/frankfurt_am_main_germany_building_river_hdr_28660_1920x1080.jpg);
+ background-size: cover;
+height: 440px;
+margin-top: 80px;
+position: relative;
+    
+}
+.options .show{
+ top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+position:absolute;
+background:rgba(130,142,152,0.4);
+}
+
+.options .things {
+ text-align: center;
+padding-top: 30px;
+    
+}
+
+.options .things span {
+ color: orangered;
+font-style: italic;
+}
+
+.options .things p{
+margin-top: 15px;
+color: #AAA;
+    
+}
+
+.options .things h2{
+ font-style: oblique;   
+}
+
+.options  .inside{
+ margin-top: 30px; 
+margin-left: 10px;
+        
+}
+
+.options  .inside input{
+ width: 300PX;  
+height: 25px;
+background: none;
+border: 1px solid #AAA;
+border-radius: 5px;
+font-size: 15px;
+font-weight: bold;
+
+
+}
+
+.options  .inside textarea{
+ display: block;  
+margin-top: 20px;
+margin-left: 290px;
+width: 612px;
+height: 150px;
+background: none;
+border: 1px solid #AAA;
+border-radius: 5px;
+font-size: 15px;
+font-weight: bold;
+
+}
+
+.options  .inside button{
+display: block;
+margin-top: 20px;
+margin-left: 290px;
+width: 120px;
+height: 30px;
+background-color: orangered;
+border: 1px solid #EEE;
+border-radius: 5px;
+color: white;
+cursor: pointer;
+
+   
+}
+
+
+
+/*end style options*/
+
+/*start style link */
+
+.link {
+background-color: #3b434c;
+color: white;
+height: 25px;
+padding-top: 5px;
+
+
+}
+
+.link .pragraph {
+ float: right;  
+color: white;
+
+    
+}
+
+.link .pragraph span{
+ color: orangered;
+
+    
+}
+/*end style link */
+
